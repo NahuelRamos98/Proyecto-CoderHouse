@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut" href="assents/img/logohelado.png">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Proyecto Final</title>
 </head>
 <body class="container__index">
@@ -29,12 +30,12 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, architecto? Natus explicabo optio amet rerum enim animi tempora minus voluptatum!</p>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, non, vero deleniti sed fuga iusto eos, consectetur quae praesentium inventore ipsum ratione repellendus voluptas tenetur facilis molestiae! Magni, ducimus asperiores optio, neque, tempora sit doloribus aliquid repellendus error nihil ratione.</p>
       <h3>Nuestros Horarios</h3>
-      <p><i class="fa-solid fa-clock"></i>Martes a Sabados de: 11:00am a 23:00pm</p>
-      <p><i class="fa-solid fa-clock"></i>Domingos de: 13:00pm a 20:00pm</p>
-      <p><i class="fa-solid fa-clock"></i>Lunes: Cerrado</p>
+      <p class="wow animate__animated animate__zoomInDown"><i class="fa-solid fa-clock"></i>Martes a Sabados de: 11:00am a 23:00pm</p>
+      <p class="wow animate__animated animate__zoomInDown"><i class="fa-solid fa-clock"></i>Domingos de: 13:00pm a 20:00pm</p>
+      <p class="wow animate__animated animate__zoomInDown"><i class="fa-solid fa-clock"></i>Lunes: Cerrado</p>
     </main>
     <aside class="aside__container">
-      <h3 class="h3__index">Bienvenidos a <span>VITTE</span></h3>
+      <h3 class="h3__index wow animate__animated animate__backInUp">Bienvenidos a <span>VITTE</span></h3>
       <img class="img__banana" src="assents/img/Index__banner.png" alt="">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam doloribus sequi esse deleniti quisquam sunt laborum ad aspernatur, distinctio, tenetur quae animi. Nam, sequi cum. Sequi neque unde minus fugiat.
@@ -49,5 +50,8 @@
        <a href="https://www.whatsapp.com/?lang=es"><i class="fa-brands fa-whatsapp"></i><li>Whattsapp</li></a>
    </ul>
   </footer>
+  <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
-</html>
