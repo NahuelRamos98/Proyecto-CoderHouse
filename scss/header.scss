@@ -1,0 +1,136 @@
+
+.header__logo{
+    height: 200px;
+    width:auto;
+}
+
+ul{
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    li{
+        text-align: center;
+        padding: 5px;
+        color: white;
+        
+    a{
+        list-style: none;
+    }
+    }
+}
+
+
+
+/*Sobre nosotros */
+
+@media (min-width: 700px){
+.nav__container--nosotros ul,
+.nav__container--nosotros li,
+.nav__container--nosotros a{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+}
+
+.nav__container--nosotros li:hover{
+    color: rgb(213, 179, 241);
+    border-bottom: 2px solid rgb(213, 179, 241);
+    font-size: 25px;
+}
+
+.nav__container--nosotros a:hover{
+    color: rgb(213, 179, 241);
+    }
+
+ /* SUCURSAL */
+
+    .nav__container--su ul,
+    .nav__container--su li,
+    .nav__container--su a{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        color: white;
+        list-style: none;
+        text-decoration: none;
+    }  
+
+    .nav__container--su li:hover{
+        color: rgb(213, 179, 241);
+        border-bottom: 2px solid rgb(213, 179, 241);
+        font-size: 25px;
+    }
+
+    .nav__container--su a:hover{
+        color: rgb(213, 179, 241);
+    }
+
+    @media (min-width: 700px){
+    .nav__container--su ul,
+    .nav__container--su li,
+    .nav__container--su a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;  
+    }
+}
+
+    .nav__container--s ul,
+    .nav__container--s li,
+    .nav__container--s a{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        color: white;
+        list-style: none;
+        text-decoration: none;
+    }  
+
+    .nav__container--s li:hover{
+        color: rgb(213, 179, 241);
+        border-bottom: 2px solid rgb(213, 179, 241);
+        font-size: 25px;
+    }
+
+    .nav__container--s a:hover{
+        color: rgb(213, 179, 241);
+    }
+
+    /* CONTACTO  */
+    .nav__container ul,
+    .nav__container li,
+    .nav__container a{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+}
+
+.nav__container li:hover{
+    color: rgb(213, 179, 241);
+    border-bottom: 2px solid rgb(213, 179, 241);
+    font-size: 25px;
+}
+
+.nav__container a:hover{
+    color: rgb(213, 179, 241);
+}
+
+@media (min-width: 700px){
+
+    .nav__container ul,
+    .nav__container li,
+    .nav__container a{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
+}

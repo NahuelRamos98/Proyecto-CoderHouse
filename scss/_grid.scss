@@ -1,0 +1,363 @@
+
+/* index */
+.container__index{
+    max-width: 1180px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+    grid-row: auto;
+    background:rgba(0, 0, 0, 0.815);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav__container{
+    grid-column: 1/3;
+    background: black;
+}
+
+.main__container{
+    grid-column: 1/3;
+    background: rgb(230, 228, 228);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    border-radius:2px;
+}
+
+.aside__container{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background: rgb(230, 228, 228);
+    text-align: center;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_index_container{
+    grid-column: 1/3;
+    color: white;
+    border-radius: 2px;
+}
+
+.bg__img{
+    background-color: none;
+    grid-column: 1/3;
+    display: inline-block;
+    text-align: center;
+}
+
+@media (min-width: 700px){
+    .container__index{
+        max-width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+    }
+    
+    .nav__container{
+        grid-column: 1/4;
+        background: black;
+        position: sticky;
+        top: 0;
+    }
+    .bg__img{
+        grid-column: 1/4;
+    }
+    
+    .main__container{
+        grid-column: 1/4;
+        display: flex;
+    }
+
+    .aside__container{
+        grid-column: 1/4;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .footer_index_container{
+        grid-column: 1/4;
+    }
+}
+
+/* Sobre nosotros */
+
+.container__nosotros{
+    display: grid;
+    max-width: 1180px;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+    color: black;
+    background:rgba(0, 0, 0, 0.815);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.bg__img--nosotros{
+    background-color: none;
+    grid-column: 1/3;
+    display: inline-block;
+    text-align: center;
+}
+.nav__container--nosotros{
+    grid-column: 1/3;
+    background: black;
+}
+
+.main__nosotros{
+    background: rgb(230, 228, 228);
+    grid-column: 1/3;
+}
+
+.article__nosotros{
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: column;
+}
+
+.img__cont--nosotros{
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__nosotros{
+    grid-column: 1/3;
+    color: white
+}
+
+@media (min-width: 700px){
+    .container__nosotros{
+        display: grid;
+        max-width: 80%;
+        height: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row: auto;
+        margin: 0 auto;
+    }
+
+    .bg__img--nosotros{
+        grid-column: 1/5;
+    }
+
+    .nav__container--nosotros{
+        grid-column: 1/5;
+        background: black;
+        position: sticky;
+        top: 0;
+    }
+
+    .main__nosotros{
+        grid-column: 1/5;
+    }
+
+    .footer__nosotros{
+        grid-column: 1/5;
+    }
+}
+
+/* SUCURSAL */
+
+.body__sucursal{
+    max-width: 1180px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+    grid-row: auto;
+    background:rgba(0, 0, 0, 0.815);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg__img--su{
+    grid-column: 1/3;
+}
+
+.nav__container--su{
+    grid-column: 1/3;
+    background-color: black;
+}
+
+.main__sucursal{
+    grid-column: 1/3;
+    background: rgb(230, 228, 228);
+}
+
+.aside__sucursal{
+    grid-column: 1/3;
+    background: rgb(230, 228, 228);
+}
+
+.ubicacion{
+    grid-column: 1/3;
+    background: rgb(230, 228, 228);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__sucursal{
+    grid-column: 1/3;
+    color: white;
+}
+
+@media (min-width: 700px){
+        
+    .body__sucursal{
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        color: black;
+        grid-row: auto;
+        background:rgba(0, 0, 0, 0.815);
+    }
+
+    .nav__container--su{
+        grid-column: 1/4;
+    }
+
+    .nav__container--su{
+        grid-column: 1/4;
+        background: black;
+        position: sticky;
+        top: 0;
+    }
+
+    .bg__img--su{
+        grid-column:1/4;
+    }
+
+    .main__sucursal{
+        grid-column:1/4;
+    }
+
+    .aside__sucursal{
+        grid-column:1/4;
+    }
+
+    .ubicacion{
+        grid-column:1/4;
+    }
+
+    .footer__sucursal{
+        grid-column:1/4;
+    }
+
+}
+
+/* Sabores */ 
+
+.container__sabores{
+    max-width: 1180px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+    grid-row: auto;
+    background:rgba(0, 0, 0, 0.815);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav__container--s{
+    grid-column: 1/3;
+    background: black;
+}
+
+
+.bg__img--s{
+    text-align: center;  
+    width: 100%;
+    grid-column: 1/3;
+}
+
+.main__sabores{
+    grid-column: 1/3;
+    padding: 10px;
+    background: rgb(230, 228, 228);
+}
+
+.footer__sabores{
+    grid-column: 1/3;
+}
+
+@media (min-width: 700px){
+    .container__sabores{
+        max-width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row: auto;
+        margin: 0 auto;
+    }
+     .bg__img--s{
+         grid-column: 1/4;
+     }
+    .nav__container--s{
+        grid-column: 1/4;
+        background: black;
+        position: sticky;
+        top: 0;
+    }
+
+        .nav__container--s ul,
+        .nav__container--s li,
+        .nav__container--s a{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+           
+        }
+
+        .main__sabores{
+            grid-column: 1/4;
+        }
+
+        .footer__sabores{
+            grid-column: 1/4;
+        }
+}
+
+/* CONTACTO  */
+
+.body__contacto{
+    background:rgba(0, 0, 0, 0.815);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: 22px;
+    padding: 0px;
+    display: grid;
+    margin: 0px;
+}
+
+.contenedor__contacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ 
+.contenedor__formulario form .block__1{
+    grid-column: 1 / 3;
+}
+
+.contenedor__formulario {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: rgba(117, 216, 255, 0.788);
+}
+
+.contenedor__info{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

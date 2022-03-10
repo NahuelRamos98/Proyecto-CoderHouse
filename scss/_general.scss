@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+  
+} 
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+span{
+    color:aqua;
+}
+
+.h3__index{
+    font-size: 60px;
+}
+
+.quienes__somos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Sucursal*/
+
+.article__sucursal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex__aside{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ubicacion ul{
+    text-decoration: none;
+    li{
+        list-style: none;
+        padding: 5px;
+        color: black;
+        }
+}
+   
+
+.h4__sucursal{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+    /* SABORES */
+    .main__sabores ul,
+    .main__sabores li
+    .main__sabores p{
+        list-style: none;
+        text-decoration: none;
+        padding: 0%;
+}
+
+    .main__sabores li{
+        border: 1px solid rgb(255, 255, 255);
+        background-color: rgba(0, 255, 255, 0.548);
+        font-size: 25px;
+}
+
+.cremas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    li{
+        color: black;
+    }
+}
+
+.chocolates{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    li{
+        color: black;
+    }
+}
+
+.tropicales{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    li{
+        color: black;
+    }
+}
+
+.especiales{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    li{
+        color: black;
+    }
+}
+
+/* CONTACTO  */
+
+.contenedor__contacto *{
+    padding: 5px;
+}
+
+.bg__contacto{
+    background: rgb(230, 228, 228);
+}
+
+.contenedor__contacto{
+    max-width: 1180px;
+    height: auto;
+    margin-bottom: 10px;
+    background: rgba(117, 216, 255, 0.788);
+}
+
+.contenedor__contacto form input, 
+.contenedor__contacto form textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    outline: none;
+    color: white;
+}  
+
+.text__contacto{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenedor__info{
+   background: rgb(51, 49, 49);
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 10px;
+}
+
+.contenedor__info ul,
+.contenedor__info li,
+.contenedor__info h4{
+    list-style: none;
+}
+
+.contenedor__info{
+    padding: 30px;
+}
+ .contenedor__info p{
+     text-align: center;
+ }
+
+footer ul,
+footer li,
+footer a{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        justify-content: space-evenly;
+        font-size: 16px;
+    }
+
+footer p{
+        text-align: center;
+        font-size: 30px;
+        color:black;
+     }
+
+footer{
+padding-top: 1px;
+background: url(../assents/img/fondo__footer.png);
+background-size: cover;
+    }

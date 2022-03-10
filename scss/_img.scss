@@ -1,0 +1,98 @@
+.img__banana{
+    height: 250px;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.img__chocolate{
+    height: 250px;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+@media (min-width: 700px){
+
+.img__banana{
+    height: auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.img__chocolate{
+    height: auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+}
+
+/* SUCURSAL*/
+.bg__img--su{
+    text-align: center;  
+    width: 100%;
+}
+
+.img__sucursal{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img__pedidos--sucursal{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img__sucursal{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.img__pedidos--sucursal{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.bg__img--su{
+    text-align: center;  
+    width: 100%;
+}
+
+/* SABORES */
+.img__crema--sabores{
+    border-radius: 10px
+}
+
+.img__chocolate--sabores{
+    border-radius: 10px;
+}
+
+.img__frutilla--sabores{
+    border-radius: 10px;
+}
+
+.img__especiales--sabores{
+    border-radius: 10px;
+}
+
+.bg__img{
+    text-align: center;  
+    width: 100%;
+}
+
+@media (min-width: 700px){
+
+    .bg__img{
+        text-align: center;
+        width: 100%;
+    }
+
+    .header__logo{
+        height: 300px;
+        width: auto;
+    }
+}
