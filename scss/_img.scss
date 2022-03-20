@@ -5,9 +5,7 @@
 }
 
 .img__chocolate{
-    height: 250px;
-    padding: 20px;
-    border-radius: 100px;
+    @extend .img__banana;
 }
 
 @media (min-width: 700px){
@@ -19,9 +17,7 @@
 }
 
 .img__chocolate{
-    height: auto;
-    padding: 20px;
-    border-radius: 30px;
+    @extend .img__banana;
 }
 }
 
@@ -50,11 +46,7 @@
 }
 
 .img__pedidos--sucursal{
-    margin-top: 15px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 5px;
+    @extend .img__sucursal;
 }
 
 .bg__img--su{
@@ -64,19 +56,19 @@
 
 /* SABORES */
 .img__crema--sabores{
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .img__chocolate--sabores{
-    border-radius: 10px;
+    @extend .img__crema--sabores;
 }
 
 .img__frutilla--sabores{
-    border-radius: 10px;
+    @extend .img__crema--sabores;
 }
 
 .img__especiales--sabores{
-    border-radius: 10px;
+    @extend .img__crema--sabores;
 }
 
 .bg__img{

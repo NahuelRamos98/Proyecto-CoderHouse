@@ -38,13 +38,13 @@ ul{
 }
 
 .nav__container--nosotros li:hover{
-    color: rgb(213, 179, 241);
-    border-bottom: 2px solid rgb(213, 179, 241);
-    font-size: 25px;
+    color: map-get($hover,color);
+    border-bottom: map-get($hover,borde);
+    font-size:map-get($hover,fuente);
 }
 
 .nav__container--nosotros a:hover{
-    color: rgb(213, 179, 241);
+    color: map-get($hover,color);
     }
 
  /* SUCURSAL */
@@ -62,13 +62,13 @@ ul{
     }  
 
     .nav__container--su li:hover{
-        color: rgb(213, 179, 241);
-        border-bottom: 2px solid rgb(213, 179, 241);
-        font-size: 25px;
+        color: map-get($hover,color);
+        border-bottom: map-get($hover,borde);
+        font-size:map-get($hover,fuente);
     }
 
     .nav__container--su a:hover{
-        color: rgb(213, 179, 241);
+        color: map-get($hover,color);
     }
 
     @media (min-width: 700px){
@@ -94,13 +94,13 @@ ul{
     }  
 
     .nav__container--s li:hover{
-        color: rgb(213, 179, 241);
-        border-bottom: 2px solid rgb(213, 179, 241);
-        font-size: 25px;
+        color: map-get($hover,color);
+        border-bottom: map-get($hover,borde);
+        font-size:map-get($hover,fuente);
     }
 
     .nav__container--s a:hover{
-        color: rgb(213, 179, 241);
+        color: map-get($hover,color);
     }
 
     /* CONTACTO  */
@@ -117,13 +117,13 @@ ul{
 }
 
 .nav__container li:hover{
-    color: rgb(213, 179, 241);
-    border-bottom: 2px solid rgb(213, 179, 241);
-    font-size: 25px;
+    color: map-get($hover,color);
+    border-bottom: map-get($hover,borde);
+    font-size:map-get($hover,fuente);
 }
 
 .nav__container a:hover{
-    color: rgb(213, 179, 241);
+    color: map-get($hover,color);
 }
 
 @media (min-width: 700px){
